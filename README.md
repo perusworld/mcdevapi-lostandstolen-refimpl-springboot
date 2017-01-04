@@ -39,6 +39,7 @@ Open browser and goto [http://localhost:3000](http://localhost:3000)
 
 ## Test REST APIs -cURL ##
 ### Query status of an account number ###
+```bash
 curl -X POST -H "Content-Type: application/json" -H "Cache-Control: no-cache" -d '{
     "accountNumber": "343434343434343"
 }' "http://localhost:3000/checkAccountNumber"
